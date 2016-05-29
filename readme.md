@@ -1,26 +1,4 @@
-# SuperCell 1.0.8
-
-<a href="https://david-dm.org/joellongie/superCell">
-  <img src="https://david-dm.org/joellongie/superCell/status.svg" alt="deps status"/>
-</a>&nbsp;
-<a href="https://david-dm.org/joellongie/superCell#info=devDependencies">
-  <img src="https://david-dm.org/joellongie/superCell/dev-status.svg" alt="dev deps status"/>
-</a>
-
-
-> CHANGELOG 1.0.8, May 18, 2016     
-> Added react-router, hashHistory on by default, can change to browserHistory. Reorganized components to reflect react-router structure.  Added a react-styled style-guide.
-
-> CHANGELOG 1.0.7, May 6, 2016     
-> Removed Font-Awesome.  "npm start" now starts app in 'development' mode, "npm run production" runs app in production mode with minified js files.  Notes on React 15.0.1 can be found at [https://facebook.github.io/react/blog/2016/04/08/react-v15.0.1.html](https://facebook.github.io/react/blog/2016/04/08/react-v15.0.1.html).
-
-
-SuperCell is my current build system for Node, Moble and ES6+ React apps.  This build system replaces jlGulp and renames the build to reflect that it is no longer tied to any particular technology but will adapt over time as new and better technologies emerge.
-
-Since this is used for my own projects I am currently not accepting public pull requests on this repo.  Other then that please feel free to use it however you like.
-
-## YouTube Demo
-[![SuperCell YouTube Demo](http://img.youtube.com/vi/BwzjYK1Hd0Y/0.jpg)](https://www.youtube.com/watch?v=BwzjYK1Hd0Y)
+# excursion 1.0.0
 
 ## Install Packages
 
@@ -35,19 +13,6 @@ This build system can be run in two modes: development and production.  Use deve
 
     npm start  (starts app in development mode)  
     npm run production (starts app in production mode)
-
-Window Users:
-
-    gulp (just use the gulp command, see below)
-
-## Window Users
-If you are running SuperCell on a window machine you may encouter two warnings:    
-
-- 'npm WARN optional Skipping failed optional dependency /chokidar/fsevents'
-- ''NODE_ENV' is not recognized as an internal or external command, operable program or batch file.'
-
-The first warning has to do with an optional mac only dependency used in some 3rd party packages.  The second is related to setting the node environment variable in Mac and Linux.  I am not a windows user so am currently looking to see if it is possible to conditional set the environment in windows.  If you know of a way please email me.  For now both warning can be ignored for windows users since they are only related to added functionality in mac/linux.
-
 
 ## Important
 
