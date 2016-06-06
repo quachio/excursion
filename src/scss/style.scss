@@ -4,25 +4,19 @@
 // ***********************************
 //@import "ui/reset";
 
-
-
 // ***********************************
 // HELPERS
 // ***********************************
-//@import "variables";
+@import "variables";
 //@import "mixins";
-
-
 
 // // ***********************************
 // // BASE STYLES
 // // ***********************************
 @import "base";
-//@import "layout";
-//@import "typography"; // typography and links
-//@import "media";
-
-
+@import "layout";
+@import "typography"; // typography and links
+@import "media";
 
 // ***********************************
 // UI ELEMENTS
@@ -33,9 +27,6 @@
 // @import "ui/forms";
 // @import "ui/code";
 // @import "ui/panels";
-
-
-
 
 // ***********************************
 // Navigation
